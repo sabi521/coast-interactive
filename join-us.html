@@ -1,0 +1,1055 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pacific Programming Tech</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="header-container bg-[#F1F1F1] w-full">
+        <!-- Navbar -->
+        <nav class="w-full">
+          <div class="px-4 h-20 flex items-center justify-between md:px-8">
+            <!-- Logo -->
+            <a class="flex items-center w-[251px]" href="index.html">
+              <img
+                src="/coast_logo.png"
+                alt="Coast Logo"
+                class="h-6.5 w-full"
+              />
+            </a>
+
+            <!-- Center Nav Links -->
+            <div class="hidden w-[460px] md:flex md:justify-center gap-8">
+              <a
+                href="index.html"
+                class="text-[#2A2A2A] font-Manrope font-bold text-base"
+                >Home</a
+              >
+              <a
+                href="how-we-work.html"
+                class="text-[#2A2A2A] font-Manrope font-medium text-base opacity-50 hover:opacity-100 active:font-bold"
+                >Services</a
+              >
+              <a
+                href="how-we-work.html"
+                class="text-[#2A2A2A] font-Manrope font-medium text-base opacity-50 hover:opacity-100 active:font-bold"
+                >Who We Are</a
+              >
+              <a
+                href="join-us.html"
+                class="text-[#2A2A2A] font-Manrope font-medium text-base opacity-50 hover:opacity-100 active:font-bold"
+                >Careers</a
+              >
+              <a
+                href="contact.html"
+                class="text-[#2A2A2A] font-Manrope font-medium text-base opacity-50 hover:opacity-100 active:font-bold"
+                >Contacts</a
+              >
+            </div>
+
+            <!-- Right Buttons -->
+            <div class="flex items-center w-[251px] justify-end">
+              <a
+                href="#"
+                class="hidden md:inline-block bg-black text-white px-6 py-3.5 rounded-sm text-base font-medium font-Manrope"
+              >
+                Contact Us
+              </a>
+              <!-- Mobile Menu Toggle Button -->
+              <button id="mobile-menu-toggle" class="md:hidden">
+                <img
+                  id="menu-icon"
+                  src="/burger_menu.svg"
+                  alt="Menu"
+                  class="h-6 w-6"
+                />
+              </button>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Mobile Menu Dropdown -->
+        <div
+          id="mobile-menu"
+          class="md:hidden hidden bg-[#F1F1F1] h-[687px] px-[27px] pt-[144px] pb-[166px] flex flex-col items-center justify-center gap-[111px] z-40 absolute w-full top-20 left-0"
+        >
+          <div class="flex flex-col items-center gap-6 w-full">
+            <a
+              href="index.html"
+              class="block w-full text-center font-Manrope text-2xl font-bold leading-[38.4px] text-[#2A2A2A]"
+            >
+              Home
+            </a>
+            <a
+              href="index.html"
+              class="block w-full text-center font-Manrope text-2xl font-bold leading-[38.4px] text-[#2A2A2A]"
+            >
+              Services
+            </a>
+            <a
+              href="how-we-work.html"
+              class="block w-full text-center font-Manrope text-2xl font-bold leading-[38.4px] text-[#2A2A2A]"
+            >
+              Who We Are
+            </a>
+            <a
+              href="join-us.html"
+              class="block w-full text-center font-Manrope text-2xl font-bold leading-[38.4px] text-[#2A2A2A]"
+            >
+              Careers
+            </a>
+            <a
+              href="contact.html"
+              class="block w-full text-center font-Manrope text-2xl font-bold leading-[38.4px] text-[#2A2A2A]"
+            >
+              Contacts
+            </a>
+          </div>
+
+          <a
+            href="#"
+            class="block w-full text-center bg-black text-white font-Manrope font-bold text-[16px] py-3 rounded-md"
+          >
+            Contact Us
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!--
+      Join Us Hero Section Starts
+      -->
+    <section class="px-0 md:px-8 bg-[#F1F1F1]">
+      <div
+        class="w-full rounded-none md:rounded-[32px] overflow-hidden relative"
+      >
+        <!-- Background image -->
+        <img
+          src="/join-us-hero-image.jpg"
+          alt="Team collaborating"
+          class="w-full h-[376px] md:h-[340px] lg:h-[380px] object-cover"
+        />
+
+        <!-- Dark overlay -->
+        <div class="absolute inset-0 bg-black/55"></div>
+
+        <!-- Content -->
+        <div
+          class="absolute inset-0 flex items-center pl-4 md:pl-[144px] py-10"
+        >
+          <div class="max-w-xl space-y-6">
+            <h2
+              class="text-[#E0EDBF] text-2xl md:text-5xl font-bold font-Manrope leading-tight"
+            >
+              Join a team that builds with purpose
+            </h2>
+
+            <p
+              class="text-[#F1F1F1] text-base md:text-xl font-normal font-Manrope leading-relaxed"
+            >
+              Whether you're into front-end frameworks or backend architecture,
+              we’d love to hear from you.
+            </p>
+
+            <a
+              href="#open-positions"
+              class="inline-flex items-center justify-center h-14 px-4 md:px-6 rounded-lg bg-[#E0EDBF] text-[#2A2A2A] text-base font-bold font-Manrope leading-6 shadow-[0_1px_2px_rgba(0,0,0,0.05)] hover:bg-[#d8e6b3] transition"
+            >
+              View Open Positions
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+      Join Us Hero Section Ends
+      -->
+
+    <!--
+    Body All Sections Start
+    -->
+    <div class="page-sections bg-[#F1F1F1] w-full">
+      <!--
+     Our approach Section
+    -->
+      <section
+        class="w-full max-w-[1568px] mx-auto px-4 md:px-8 py-12 md:py-24"
+      >
+        <!-- Top heading row -->
+        <div
+          class="flex flex-col md:flex-row justify-between gap-4 mb-6 md:mb-25"
+        >
+          <p
+            class="max-w-[200px] w-full text-lg md:text-xl font-semibold font-Manrope text-[#FE6D36]"
+          >
+            Why Join Us?
+          </p>
+
+          <h2
+            class="max-w-[1135px] w-full text-3xl md:text-5xl font-bold font-Manrope leading-tight"
+          >
+            <span class="text-[#2A2A2A]">At Coast Interactive</span>
+            <span class="text-neutral-500">
+              , we believe that a great workplace goes
+            </span>
+            <span class="text-[#2A2A2A]"> beyond just a job</span>
+            <span class="text-neutral-500">
+              . We’re a community of passionate, driven individuals who
+            </span>
+            <span class="text-[#2A2A2A]">
+              collaborate, innovate, and grow together.
+            </span>
+          </h2>
+        </div>
+
+        <!-- Features -->
+        <div
+          class="flex flex-col md:flex-row divide-y md:divide-y-0 md:divide-x divide-Color-Black/20"
+        >
+          <!-- 1. A Culture of Growth -->
+          <div class="flex-1 pr-0 md:pr-14 py-8">
+            <div class="w-11 h-9 md:w-24 md:h-24 mb-5 md:mb-12">
+              <img src="/mountain.png" alt="mountain icon" class="w-full" />
+            </div>
+
+            <div>
+              <h3
+                class="text-[#2A2A2A] text-2xl md:text-3xl font-extrabold font-Manrope leading-10 md:leading-tight mb-4 md:mb-6"
+              >
+                A Culture of Growth
+              </h3>
+              <p
+                class="text-gray-600 text-base md:text-xl font-normal font-Manrope leading-6 md:leading-8"
+              >
+                We invest in your personal and professional development,
+                offering opportunities to advance.
+              </p>
+            </div>
+          </div>
+
+          <!-- 2. Work-Life Balance -->
+          <div class="flex-1 px-0 md:px-14 py-8">
+            <div class="w-11 h-9 md:w-24 md:h-24 mb-5 md:mb-12">
+              <img src="/coffee.png" alt="mountain icon" class="w-full" />
+            </div>
+
+            <div>
+              <h3
+                class="text-[#2A2A2A] text-2xl md:text-3xl font-extrabold font-Manrope leading-10 md:leading-tight mb-4 md:mb-6"
+              >
+                Work-Life Balance
+              </h3>
+              <p
+                class="text-gray-600 text-base md:text-xl font-normal font-Manrope leading-6 md:leading-8"
+              >
+                Flexible work arrangements, wellness programs, and a supportive
+                team that values your well-being.
+              </p>
+            </div>
+          </div>
+
+          <!-- 3. Competitive Benefits -->
+          <div class="flex-1 pl-0 md:pl-14 py-8">
+            <div class="w-11 h-9 md:w-24 md:h-24 mb-5 md:mb-12">
+              <img
+                src="/arrow-percent.png"
+                alt="mountain icon"
+                class="w-full"
+              />
+            </div>
+
+            <div>
+              <h3
+                class="text-[#2A2A2A] text-2xl md:text-3xl font-extrabold font-Manrope leading-10 md:leading-tight mb-4 md:mb-6"
+              >
+                Competitive Benefits
+              </h3>
+              <p
+                class="text-gray-600 text-base md:text-xl font-normal font-Manrope leading-6 md:leading-8"
+              >
+                Enjoy a comprehensive package, including competitive salaries,
+                health benefits, and performance incentives.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--
+      Our approach Section Ends
+      -->
+
+      <!--
+      Job posting section starts
+    -->
+      <section class="job-posting-section px-4 md:px-8">
+        <div
+          class="w-full bg-white px-4 pt-12 pb-16 rounded-[20px] md:rounded-4xl md:pb-24 md:px-16"
+          id="open-positions "
+        >
+          <div class="max-w-[1568px] mx-auto md:px-8">
+            <div class="title flex items-center gap-2.5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="11"
+                height="13"
+                viewBox="0 0 11 13"
+                fill="none"
+              >
+                <path d="M11 6.5L0 13L5.55209e-07 0L11 6.5Z" fill="#228DFF" />
+              </svg>
+              <h2 class="section-title">Vacancies</h2>
+            </div>
+            <div class="section-heading-container mb-6">
+              <h3 class="section-heading">6 Open Positions</h3>
+            </div>
+
+            <div class="job-positions font-Manrope text-base text-[#282E38]">
+              <div
+                class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 border-b border-[#CAD8EB] mb-4 py-6"
+              >
+                <h4
+                  class="text-xl md:text-2xl max-w-[638px] flex items-center justify-between w-full"
+                >
+                  <span>Senior Full Stack Developer</span>
+                  <svg
+                    class="block lg:hidden"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
+                      fill="#8E9AB0"
+                    />
+                  </svg>
+                </h4>
+                <div class="flex flex-row lg:flex-col gap-2">
+                  <p class="location flex items-center gap-[2px]">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M14 22V8M14 22H8C5.172 22 3.757 22 2.879 21.121C2 20.243 2 18.828 2 16V8C2 5.172 2 3.757 2.879 2.879C3.757 2 5.172 2 8 2C10.828 2 12.243 2 13.121 2.879C14 3.757 14 5.172 14 8M14 22H18C19.886 22 20.828 22 21.414 21.414C22 20.828 22 19.886 22 18V12C22 10.114 22 9.172 21.414 8.586C20.828 8 19.886 8 18 8H14M6.5 11H5.5M10.5 11H9.5M6.5 7H5.5M6.5 15H5.5M10.5 7H9.5M10.5 15H9.5M18.5 15H17.5M18.5 11H17.5"
+                        stroke="#282E38"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      /></svg
+                    >Hybrid
+                  </p>
+                  <p class="opacity-60">Vancouver, British Columbia</p>
+                </div>
+                <div class="time flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                  >
+                    <path
+                      d="M11 21C16.5228 21 21 16.5228 21 11C21 5.47715 16.5228 1 11 1C5.47715 1 1 5.47715 1 11C1 16.5228 5.47715 21 11 21Z"
+                      stroke="#282E38"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M11 5V11L15 13"
+                      stroke="#282E38"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  Full-Time
+                </div>
+                <div class="apply hidden items-center lg:flex gap-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
+                      fill="#8E9AB0"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M19.2402 7.90625L27.3336 15.9996L19.2402 24.0929"
+                      stroke="#8E9AB0"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4.6665 16H27.1065"
+                      stroke="#8E9AB0"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div
+                class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 border-b border-[#CAD8EB] mb-4 py-6"
+              >
+                <h4
+                  class="text-xl md:text-2xl max-w-[638px] flex items-center justify-between w-full"
+                >
+                  <span>Senior Full Stack Developer</span>
+                  <svg
+                    class="block lg:hidden"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
+                      fill="#8E9AB0"
+                    />
+                  </svg>
+                </h4>
+                <div class="flex flex-row lg:flex-col gap-2">
+                  <p class="location flex items-center gap-[2px]">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M14 22V8M14 22H8C5.172 22 3.757 22 2.879 21.121C2 20.243 2 18.828 2 16V8C2 5.172 2 3.757 2.879 2.879C3.757 2 5.172 2 8 2C10.828 2 12.243 2 13.121 2.879C14 3.757 14 5.172 14 8M14 22H18C19.886 22 20.828 22 21.414 21.414C22 20.828 22 19.886 22 18V12C22 10.114 22 9.172 21.414 8.586C20.828 8 19.886 8 18 8H14M6.5 11H5.5M10.5 11H9.5M6.5 7H5.5M6.5 15H5.5M10.5 7H9.5M10.5 15H9.5M18.5 15H17.5M18.5 11H17.5"
+                        stroke="#282E38"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      /></svg
+                    >Hybrid
+                  </p>
+                  <p class="opacity-60">Vancouver, British Columbia</p>
+                </div>
+                <div class="time flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                  >
+                    <path
+                      d="M11 21C16.5228 21 21 16.5228 21 11C21 5.47715 16.5228 1 11 1C5.47715 1 1 5.47715 1 11C1 16.5228 5.47715 21 11 21Z"
+                      stroke="#282E38"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M11 5V11L15 13"
+                      stroke="#282E38"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  Full-Time
+                </div>
+                <div class="apply hidden items-center lg:flex gap-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
+                      fill="#8E9AB0"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M19.2402 7.90625L27.3336 15.9996L19.2402 24.0929"
+                      stroke="#8E9AB0"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4.6665 16H27.1065"
+                      stroke="#8E9AB0"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div
+                class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 border-b border-[#CAD8EB] mb-4 py-6"
+              >
+                <h4
+                  class="text-xl md:text-2xl max-w-[638px] flex items-center justify-between w-full"
+                >
+                  <span>Senior Full Stack Developer</span>
+                  <svg
+                    class="block lg:hidden"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
+                      fill="#8E9AB0"
+                    />
+                  </svg>
+                </h4>
+                <div class="flex flex-row lg:flex-col gap-2">
+                  <p class="location flex items-center gap-[2px]">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M14 22V8M14 22H8C5.172 22 3.757 22 2.879 21.121C2 20.243 2 18.828 2 16V8C2 5.172 2 3.757 2.879 2.879C3.757 2 5.172 2 8 2C10.828 2 12.243 2 13.121 2.879C14 3.757 14 5.172 14 8M14 22H18C19.886 22 20.828 22 21.414 21.414C22 20.828 22 19.886 22 18V12C22 10.114 22 9.172 21.414 8.586C20.828 8 19.886 8 18 8H14M6.5 11H5.5M10.5 11H9.5M6.5 7H5.5M6.5 15H5.5M10.5 7H9.5M10.5 15H9.5M18.5 15H17.5M18.5 11H17.5"
+                        stroke="#282E38"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      /></svg
+                    >Hybrid
+                  </p>
+                  <p class="opacity-60">Vancouver, British Columbia</p>
+                </div>
+                <div class="time flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                  >
+                    <path
+                      d="M11 21C16.5228 21 21 16.5228 21 11C21 5.47715 16.5228 1 11 1C5.47715 1 1 5.47715 1 11C1 16.5228 5.47715 21 11 21Z"
+                      stroke="#282E38"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M11 5V11L15 13"
+                      stroke="#282E38"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  Full-Time
+                </div>
+                <div class="apply hidden items-center lg:flex gap-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
+                      fill="#8E9AB0"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M19.2402 7.90625L27.3336 15.9996L19.2402 24.0929"
+                      stroke="#8E9AB0"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4.6665 16H27.1065"
+                      stroke="#8E9AB0"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div
+                class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 border-b border-[#CAD8EB] mb-4 py-6"
+              >
+                <h4
+                  class="text-xl md:text-2xl max-w-[638px] flex items-center justify-between w-full"
+                >
+                  <span>Senior Full Stack Developer</span>
+                  <svg
+                    class="block lg:hidden"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
+                      fill="#8E9AB0"
+                    />
+                  </svg>
+                </h4>
+                <div class="flex flex-row lg:flex-col gap-2">
+                  <p class="location flex items-center gap-[2px]">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M14 22V8M14 22H8C5.172 22 3.757 22 2.879 21.121C2 20.243 2 18.828 2 16V8C2 5.172 2 3.757 2.879 2.879C3.757 2 5.172 2 8 2C10.828 2 12.243 2 13.121 2.879C14 3.757 14 5.172 14 8M14 22H18C19.886 22 20.828 22 21.414 21.414C22 20.828 22 19.886 22 18V12C22 10.114 22 9.172 21.414 8.586C20.828 8 19.886 8 18 8H14M6.5 11H5.5M10.5 11H9.5M6.5 7H5.5M6.5 15H5.5M10.5 7H9.5M10.5 15H9.5M18.5 15H17.5M18.5 11H17.5"
+                        stroke="#282E38"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      /></svg
+                    >Hybrid
+                  </p>
+                  <p class="opacity-60">Vancouver, British Columbia</p>
+                </div>
+                <div class="time flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                  >
+                    <path
+                      d="M11 21C16.5228 21 21 16.5228 21 11C21 5.47715 16.5228 1 11 1C5.47715 1 1 5.47715 1 11C1 16.5228 5.47715 21 11 21Z"
+                      stroke="#282E38"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M11 5V11L15 13"
+                      stroke="#282E38"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  Full-Time
+                </div>
+                <div class="apply hidden items-center lg:flex gap-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
+                      fill="#8E9AB0"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M19.2402 7.90625L27.3336 15.9996L19.2402 24.0929"
+                      stroke="#8E9AB0"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4.6665 16H27.1065"
+                      stroke="#8E9AB0"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div
+                class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 border-b border-[#CAD8EB] mb-4 py-6"
+              >
+                <h4
+                  class="text-xl md:text-2xl max-w-[638px] flex items-center justify-between w-full"
+                >
+                  <span>Senior Full Stack Developer</span>
+                  <svg
+                    class="block lg:hidden"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
+                      fill="#8E9AB0"
+                    />
+                  </svg>
+                </h4>
+                <div class="flex flex-row lg:flex-col gap-2">
+                  <p class="location flex items-center gap-[2px]">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M14 22V8M14 22H8C5.172 22 3.757 22 2.879 21.121C2 20.243 2 18.828 2 16V8C2 5.172 2 3.757 2.879 2.879C3.757 2 5.172 2 8 2C10.828 2 12.243 2 13.121 2.879C14 3.757 14 5.172 14 8M14 22H18C19.886 22 20.828 22 21.414 21.414C22 20.828 22 19.886 22 18V12C22 10.114 22 9.172 21.414 8.586C20.828 8 19.886 8 18 8H14M6.5 11H5.5M10.5 11H9.5M6.5 7H5.5M6.5 15H5.5M10.5 7H9.5M10.5 15H9.5M18.5 15H17.5M18.5 11H17.5"
+                        stroke="#282E38"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      /></svg
+                    >Hybrid
+                  </p>
+                  <p class="opacity-60">Vancouver, British Columbia</p>
+                </div>
+                <div class="time flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                  >
+                    <path
+                      d="M11 21C16.5228 21 21 16.5228 21 11C21 5.47715 16.5228 1 11 1C5.47715 1 1 5.47715 1 11C1 16.5228 5.47715 21 11 21Z"
+                      stroke="#282E38"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M11 5V11L15 13"
+                      stroke="#282E38"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  Full-Time
+                </div>
+                <div class="apply hidden items-center lg:flex gap-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
+                      fill="#8E9AB0"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                  >
+                    <path
+                      d="M19.2402 7.90625L27.3336 15.9996L19.2402 24.0929"
+                      stroke="#8E9AB0"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4.6665 16H27.1065"
+                      stroke="#8E9AB0"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="mt-10 flex justify-center items-center gap-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M9.78033 12.7803C9.48744 13.0732 9.01256 13.0732 8.71967 12.7803L4.46967 8.53033C4.17678 8.23744 4.17678 7.76256 4.46967 7.46967L8.71967 3.21967C9.01256 2.92678 9.48744 2.92678 9.78033 3.21967C10.0732 3.51256 10.0732 3.98744 9.78033 4.28033L6.06066 8L9.78033 11.7197C10.0732 12.0126 10.0732 12.4874 9.78033 12.7803Z"
+                  fill="#AFB9CB"
+                />
+              </svg>
+              <button
+                class="w-9 h-9 rounded bg-[#282E38] text-white text-sm font-medium"
+              >
+                1
+              </button>
+              <button class="w-9 h-9 rounded bg-[#F3F4F6] text-sm font-medium">
+                2
+              </button>
+              <button class="w-9 h-9 rounded bg-[#F3F4F6] text-sm font-medium">
+                3
+              </button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.21967 3.21967C6.51256 2.92678 6.98744 2.92678 7.28033 3.21967L11.5303 7.46967C11.8232 7.76256 11.8232 8.23744 11.5303 8.53033L7.28033 12.7803C6.98744 13.0732 6.51256 13.0732 6.21967 12.7803C5.92678 12.4874 5.92678 12.0126 6.21967 11.7197L9.93934 8L6.21967 4.28033C5.92678 3.98744 5.92678 3.51256 6.21967 3.21967Z"
+                  fill="#AFB9CB"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--
+      Job posting section Ends
+    -->
+
+      <!--Refer a Friend section Starts-->
+
+      <section class="w-full mx-auto px-4 md:px-8 py-12">
+        <div class="flex flex-col md:flex-row gap-4 items-stretch">
+          <!-- Send CV -->
+          <div
+            class="flex-1 bg-[#E0EDBF] rounded-[32px] px-6 md:px-8 py-8 md:py-10 flex flex-col justify-between gap-6 md:gap-8"
+          >
+            <div class="space-y-4 md:space-y-6">
+              <h3
+                class="text-[#2A2A2A] text-xl md:text-[28px] font-extrabold font-Manrope"
+              >
+                Send Your CV
+              </h3>
+
+              <div class="border-t border-[#2A2A2A]/70"></div>
+
+              <p
+                class="text-[#2A2A2A] text-base md:text-xl font-normal font-Manrope leading-relaxed"
+              >
+                Didn't find a suitable open position? Send us your resume here.
+                We are always looking for new talents.
+              </p>
+            </div>
+
+            <button
+              class="mt-4 inline-flex items-center justify-center px-4 py-2 h-14 w-40 bg-[#171717] text-[#FAFAFA] text-base font-medium font-Manrope leading-6 rounded-lg shadow-[0_1px_2px_rgba(0,0,0,0.05)]"
+            >
+              Send CV
+            </button>
+          </div>
+
+          <!-- Refer a Friend -->
+          <div
+            class="flex-1 bg-[#E0EDBF] rounded-[32px] px-6 md:px-8 py-8 md:py-10 flex flex-col justify-between gap-6 md:gap-8"
+          >
+            <div class="space-y-4 md:space-y-6">
+              <h3
+                class="text-[#2A2A2A] text-xl md:text-[28px] font-extrabold font-Manrope"
+              >
+                Refer a Friend
+              </h3>
+
+              <div class="border-t border-[#2A2A2A]/70"></div>
+
+              <p
+                class="text-[#2A2A2A] text-base md:text-xl font-normal font-Manrope leading-relaxed"
+              >
+                Do you know a talented individual?<br />
+                Share their information with us.
+              </p>
+            </div>
+
+            <button
+              class="mt-4 inline-flex items-center justify-center px-4 py-2 h-14 w-40 bg-[#171717] text-[#FAFAFA] text-base font-medium font-Manrope leading-6 rounded-lg shadow-[0_1px_2px_rgba(0,0,0,0.05)]"
+            >
+              Refer a Friend
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!--Refer a Friend section Ends-->
+    </div>
+    <!--
+    Body All Sections Ends
+    -->
+
+    <!-- 
+    Footer Section Starts 
+    -->
+
+    <footer class="bg-[#2A2A2A] text-white py-10 px-4">
+      <div
+        class="max-w-[1430px] mx-auto flex flex-col md:flex-row justify-between gap-8"
+      >
+        <!-- Left Column: Logo & Social -->
+        <div class="flex flex-col gap-5.5 md:gap-8 md:[max-w-276px]">
+          <img
+            src="/coast_logo_white.png"
+            alt="Pacific Logo"
+            class="h-5 w-[200px] object-contain"
+          />
+          <a
+            href="https://www.linkedin.com/company/pacific-programming-tech"
+            target="_blank"
+            class="linkedIn-btn w-[131px] inline-flex items-center gap-2 px-4 py-2 rounded text-white"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.85685 5.8075H10.9518V7.34917C11.3977 6.4625 12.541 5.66583 14.2585 5.66583C17.551 5.66583 18.3327 7.43083 18.3327 10.6692V16.6667H14.9993V11.4067C14.9993 9.5625 14.5535 8.5225 13.4185 8.5225C11.8443 8.5225 11.1902 9.64333 11.1902 11.4058V16.6667H7.85685V5.8075ZM2.14102 16.525H5.47435V5.66583H2.14102V16.525ZM5.95185 2.125C5.95197 2.4044 5.89656 2.68103 5.78884 2.93882C5.68111 3.19662 5.52323 3.43043 5.32435 3.62667C5.12488 3.8251 4.88827 3.98228 4.62803 4.08924C4.3678 4.19619 4.08904 4.25082 3.80768 4.25C3.24068 4.24873 2.69678 4.02524 2.29268 3.6275C2.0946 3.43054 1.93729 3.19646 1.82976 2.93864C1.72223 2.68083 1.66659 2.40434 1.66602 2.125C1.66602 1.56083 1.89102 1.02083 2.29352 0.622501C2.6966 0.223235 3.24116 -0.000520103 3.80852 9.07836e-07C4.37685 9.07836e-07 4.92185 0.224168 5.32435 0.622501C5.72685 1.02083 5.95185 1.56083 5.95185 2.125Z"
+                fill="#8E9AB0"
+              />
+            </svg>
+            <span class="font-Manrope text-base font-bold text-white"
+              >LinkedIn</span
+            >
+          </a>
+        </div>
+
+        <!-- Middle Column: Menu Links -->
+        <div
+          class="font-Manrope text-base flex justify-between w-full md:max-w-[516px]"
+        >
+          <div class="flex flex-col gap-6">
+            <a href="/" class="hover:underline">Home</a>
+            <a href="/contacts" class="hover:underline">Contacts</a>
+          </div>
+          <div class="flex flex-col gap-6">
+            <a href="/careers" class="hover:underline">Careers</a>
+            <a href="/about" class="hover:underline">Who We Are</a>
+          </div>
+          <div>
+            <a href="/services" class="hover:underline">Services</a>
+          </div>
+        </div>
+
+        <!-- Right Column: Contact Info -->
+        <div
+          class="text-base font-Manrope leading-6.5 md:[max-w-240px] flex flex-col gap-3"
+        >
+          <div class="flex w-[336px] justify-between">
+            <p class="opacity-50 w-5">Address:</p>
+            <p class="w-[232px]">
+              2010-1002 Sherbrooke O,<br />Montreal QC H3A 3L6
+            </p>
+          </div>
+
+          <div class="flex w-[336px] justify-between">
+            <p class="opacity-50 w-5">Phone:</p>
+            <p class="w-[232px]">+514-670-6000</p>
+          </div>
+
+          <div class="flex w-[336px] justify-between">
+            <p class="opacity-50">Email:</p>
+            <p class="w-[232px]">sales@pacificdev.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <div
+        class="border-t border-[#FFFFFF44] mt-8 pt-4 text-sm text-white font-Manrope opacity-50 max-w-[1430px] mx-auto"
+      >
+        Coast Interactive © 2025
+      </div>
+    </footer>
+
+    <!--
+    Footer Section Ends
+    -->
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
