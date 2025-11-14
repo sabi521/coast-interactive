@@ -127,11 +127,18 @@
       <div
         class="w-full rounded-none md:rounded-[32px] overflow-hidden relative"
       >
-        <!-- Background image -->
+        <!-- Background image Desktop-->
         <img
           src="/join-us-hero-image.jpg"
           alt="Team collaborating"
-          class="w-full h-[376px] md:h-[340px] lg:h-[380px] object-cover"
+          class="w-full hidden md:block md:h-[340px] lg:h-[380px] object-cover"
+        />
+
+        <!-- Background image Mobile-->
+        <img
+          src="/join-us-mobile.jpg"
+          alt="Team collaborating"
+          class="w-full h-[376px] block md:hidden object-cover"
         />
 
         <!-- Dark overlay -->
