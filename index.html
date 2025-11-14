@@ -11,7 +11,7 @@
   </head>
   <body>
     <!-- Header Section -->
-    <header>
+    <header class="fixed top-0 left-0 w-full z-50 h-20">
       <div class="header-container bg-[#F1F1F1] w-full">
         <!-- Navbar -->
         <nav class="w-full">
@@ -28,17 +28,17 @@
             <!-- Center Nav Links -->
             <div class="hidden w-[460px] md:flex md:justify-center gap-8">
               <a
-                href="index.html"
+                href="/"
                 class="text-[#2A2A2A] font-Manrope font-bold text-base"
                 >Home</a
               >
               <a
-                href="how-we-work.html"
+                href="/#services-we-offer"
                 class="text-[#2A2A2A] font-Manrope font-medium text-base opacity-50 hover:opacity-100 active:font-bold"
                 >Services</a
               >
               <a
-                href="how-we-work.html"
+                href="/#who-we-are"
                 class="text-[#2A2A2A] font-Manrope font-medium text-base opacity-50 hover:opacity-100 active:font-bold"
                 >Who We Are</a
               >
@@ -48,7 +48,7 @@
                 >Careers</a
               >
               <a
-                href="contact.html"
+                href="/#contact-us"
                 class="text-[#2A2A2A] font-Manrope font-medium text-base opacity-50 hover:opacity-100 active:font-bold"
                 >Contacts</a
               >
@@ -82,19 +82,19 @@
         >
           <div class="flex flex-col items-center gap-6 w-full">
             <a
-              href="index.html"
+              href="/"
               class="block w-full text-center font-Manrope text-2xl font-bold leading-[38.4px] text-[#2A2A2A]"
             >
               Home
             </a>
             <a
-              href="index.html"
+              href="/#services-we-offer"
               class="block w-full text-center font-Manrope text-2xl font-bold leading-[38.4px] text-[#2A2A2A]"
             >
               Services
             </a>
             <a
-              href="how-we-work.html"
+              href="/#who-we-are"
               class="block w-full text-center font-Manrope text-2xl font-bold leading-[38.4px] text-[#2A2A2A]"
             >
               Who We Are
@@ -106,7 +106,7 @@
               Careers
             </a>
             <a
-              href="contact.html"
+              href="/#contact-us"
               class="block w-full text-center font-Manrope text-2xl font-bold leading-[38.4px] text-[#2A2A2A]"
             >
               Contacts
@@ -127,7 +127,7 @@
       Hero Section Starts
       -->
     <section
-      class="hero-container bg-[#F1F1F1] w-full flex flex-col md:flex-row items-center justify-between overflow-hidden gap-14 px-0 md:px-8 relative"
+      class="hero-container bg-[#F1F1F1] w-full flex flex-col md:flex-row items-center justify-between overflow-hidden gap-14 px-0 relative md:px-8 mt-20"
     >
       <!-- Right Image -->
       <div class="w-full md:max-w-[1056px] relative order-1 md:order-2">
@@ -202,13 +202,17 @@
 
           <!-- Card / Bar -->
           <div
-            class="bg-[#232323] rounded-[24px] md:rounded-[32px] px-4 md:px-8 py-10 md:py-8 flex flex-wrap md:flex-nowrap items-center justify-between gap-3 md:gap-4 shadow-lg"
+            class="bg-[#2A2A2A] rounded-[24px] md:rounded-[32px] px-4 md:px-8 py-10 md:py-8 flex flex-wrap md:flex-nowrap items-center justify-between gap-3 md:gap-4 shadow-lg"
           >
             <!-- .NET -->
             <div
               class="flex flex-col items-center justify-center gap-3 text-center max-w-[140px] md:max-w-1/4 w-full"
             >
-              <img src="/dot-net.png" alt=".NET" class="bg-blend-lighten" />
+              <img
+                src="/dot-net.png"
+                alt=".NET"
+                class="w-12 h-12 md:w-16 md:h-16"
+              />
 
               <p
                 class="font-Manrope text-[16px] leading-[1.6] text-[#F1F1F1]/80"
@@ -221,7 +225,11 @@
             <div
               class="flex flex-col items-center gap-3 text-center max-w-[140px] md:max-w-1/4 w-full"
             >
-              <img src="/react.png" alt="React" />
+              <img
+                src="/react.png"
+                alt="React"
+                class="w-12 h-12 md:w-16 md:h-16"
+              />
 
               <p
                 class="font-Manrope text-[16px] leading-[1.6] text-[#F1F1F1]/80"
@@ -234,7 +242,11 @@
             <div
               class="flex flex-col items-center gap-3 text-center max-w-[140px] md:max-w-1/4 w-full"
             >
-              <img src="/sql.png" alt="SQL Server" />
+              <img
+                src="/sql.png"
+                alt="SQL Server"
+                class="w-12 h-12 md:w-16 md:h-16"
+              />
 
               <p
                 class="font-Manrope text-[16px] leading-[1.6] text-[#F1F1F1]/80"
@@ -247,7 +259,11 @@
             <div
               class="flex flex-col items-center gap-3 text-center max-w-[140px] md:max-w-1/4 w-full"
             >
-              <img src="/devops.png" alt="DevOps" />
+              <img
+                src="/devops.png"
+                alt="DevOps"
+                class="w-12 h-12 md:w-16 md:h-16"
+              />
               <p
                 class="font-Manrope text-[16px] leading-[1.6] text-[#F1F1F1]/80"
               >
@@ -267,6 +283,7 @@
       -->
 
       <section
+        id="services-we-offer"
         class="bg-[#F1F1F1] w-full flex flex-col items-center pb-12 md:pb-14"
       >
         <!-- Section Title -->
@@ -298,25 +315,111 @@
         </div>
 
         <div class="w-full px-4 md:px-8">
-          <div
-            class="w-full h-[600px] md:h-[820px] rounded-[32px] overflow-hidden flex flex-col md:flex-row justify-between items-center bg-[url('/services-bg-mobile.png')] md:bg-[url('/services-bg.png')] bg-cover bg-center bg-no-repeat"
-          >
-            <!-- Left Content -->
+          <div class="w-full rounded-[32px] overflow-hidden">
+            <!-- Swiper container -->
             <div
-              class="flex-1 pl-6 md:pl-24 py-16 md:py-24 flex flex-col justify-start items-start gap-4 md:gap-8"
+              id="services-swiper"
+              class="swiper w-full h-[600px] md:h-[820px]"
             >
-              <h2
-                class="text-[#E0EDBF] text-2xl md:text-5xl font-bold font-Manrope leading-tight"
-              >
-                Intelligence & Automation
-              </h2>
+              <div class="swiper-wrapper">
+                <!-- SLIDE 1 -->
+                <div class="swiper-slide">
+                  <div
+                    class="w-full h-full flex flex-col md:flex-row justify-between items-center bg-[url('/services-bg-mobile.png')] md:bg-[url('/services-bg.png')] bg-cover bg-center bg-no-repeat"
+                  >
+                    <div
+                      class="flex-1 pl-6 md:pl-24 py-16 md:py-24 flex flex-col justify-start items-start gap-4 md:gap-8"
+                    >
+                      <h2
+                        class="text-[#E0EDBF] text-2xl md:text-5xl font-bold font-Manrope leading-tight"
+                      >
+                        Intelligence & Automation
+                      </h2>
 
-              <ul
-                class="text-[#F1F1F1] text-base md:text-xl font-normal font-Manrope leading-relaxed list-disc list-inside"
-              >
-                <li>LLM and Machine Learning Integration</li>
-                <li>Marketing Automation & Campaign Tools</li>
-              </ul>
+                      <ul
+                        class="text-[#F1F1F1] text-base md:text-xl font-normal font-Manrope leading-relaxed list-disc list-inside"
+                      >
+                        <li>LLM and Machine Learning Integration</li>
+                        <li>Marketing Automation &amp; Campaign Tools</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- SLIDE 2 (same for now) -->
+                <div class="swiper-slide">
+                  <div
+                    class="w-full h-full flex flex-col md:flex-row justify-between items-center bg-[url('/services-bg-mobile.png')] md:bg-[url('/services-bg.png')] bg-cover bg-center bg-no-repeat"
+                  >
+                    <div
+                      class="flex-1 pl-6 md:pl-24 py-16 md:py-24 flex flex-col justify-start items-start gap-4 md:gap-8"
+                    >
+                      <h2
+                        class="text-[#E0EDBF] text-2xl md:text-5xl font-bold font-Manrope leading-tight"
+                      >
+                        Integration & scale
+                      </h2>
+
+                      <ul
+                        class="text-[#F1F1F1] text-base md:text-xl font-normal font-Manrope leading-relaxed list-disc list-inside"
+                      >
+                        <li>API Development & Integration</li>
+                        <li>3rd-Party Services Integration</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- SLIDE 3 -->
+                <div class="swiper-slide">
+                  <div
+                    class="w-full h-full flex flex-col md:flex-row justify-between items-center bg-[url('/services-bg-mobile.png')] md:bg-[url('/services-bg.png')] bg-cover bg-center bg-no-repeat"
+                  >
+                    <div
+                      class="flex-1 pl-6 md:pl-24 py-16 md:py-24 flex flex-col justify-start items-start gap-4 md:gap-8"
+                    >
+                      <h2
+                        class="text-[#E0EDBF] text-2xl md:text-5xl font-bold font-Manrope leading-tight"
+                      >
+                        Design & Experience
+                      </h2>
+
+                      <ul
+                        class="text-[#F1F1F1] text-base md:text-xl font-normal font-Manrope leading-relaxed list-disc list-inside"
+                      >
+                        <li>Software & App UX/UI Design</li>
+                        <li>Prototyping & User Testing</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- SLIDE 4 -->
+                <div class="swiper-slide">
+                  <div
+                    class="w-full h-full flex flex-col md:flex-row justify-between items-center bg-[url('/services-bg-mobile.png')] md:bg-[url('/services-bg.png')] bg-cover bg-center bg-no-repeat"
+                  >
+                    <div
+                      class="flex-1 pl-6 md:pl-24 py-16 md:py-24 flex flex-col justify-start items-start gap-4 md:gap-8"
+                    >
+                      <h2
+                        class="text-[#E0EDBF] text-2xl md:text-5xl font-bold font-Manrope leading-tight"
+                      >
+                        Platform & Systems
+                      </h2>
+
+                      <ul
+                        class="text-[#F1F1F1] text-base md:text-xl font-normal font-Manrope leading-relaxed list-disc list-inside"
+                      >
+                        <li>Ecommerce Platforms</li>
+                        <li>CRM Systems</li>
+                        <li>Ticketing & Support Portals</li>
+                        <li>Enterprise B2B Tools</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -330,7 +433,7 @@
       Our Expertise Section Starts
       -->
 
-      <section class="w-full bg-[#F1F1F1]">
+      <section id="who-we-are" class="w-full bg-[#F1F1F1]">
         <div
           class="bg-white w-full mx-auto pt-8 md:pt-25 rounded-t-[32px] overflow-hidden"
         >
@@ -660,6 +763,7 @@
       -->
 
       <section
+        id="contact-us"
         class="bg-white w-full flex flex-col items-center pb-12 px-4 md:px-8 md:pb-14"
       >
         <!-- Contacts Title -->
@@ -754,7 +858,7 @@
                 </p>
               </div>
               <a
-                href="contact.html"
+                href="/#contact-us"
                 class="flex items-center justify-center h-14 w-36 px-6 rounded-xl bg-[#E0EDBF] text-[#2A2A2A] font-Manrope font-semibold hover:bg-[#d5e7a9] active:translate-y-px transition"
               >
                 Contact Us

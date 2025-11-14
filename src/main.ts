@@ -46,4 +46,21 @@ document.addEventListener("DOMContentLoaded", () => {
       },
     });
   }
+
+  // Services swiper
+  const servicesEl = document.querySelector("#services-swiper");
+  if (servicesEl) {
+    new Swiper("#services-swiper", {
+      loop: true,
+      slidesPerView: 1,
+      speed: 600,
+      autoplay: {
+        delay: 4000,
+      },
+      pagination: {
+        el: "#services-swiper .swiper-pagination",
+        clickable: true,
+      },
+    });
+  }
 });
