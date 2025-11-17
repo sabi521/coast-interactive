@@ -7,8 +7,9 @@ import closeIcon from "/close_menu.svg";
 document.addEventListener("DOMContentLoaded", () => {
   const toggle = document.getElementById("mobile-menu-toggle");
   const menu = document.getElementById("mobile-menu");
-  const icon = document.getElementById("menu-icon") as HTMLImageElement;
+  const icon = document.getElementById("menu-icon") as HTMLImageElement | null;
 
+  // Burger toggle
   toggle?.addEventListener("click", () => {
     const isOpen = !menu?.classList.contains("hidden");
     menu?.classList.toggle("hidden");
@@ -19,6 +20,25 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // ✅ Close mobile menu when a menu link is clicked
+  const menuLinks =
+    document.querySelectorAll<HTMLAnchorElement>("#mobile-menu a");
+  menuLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      if (!menu) return;
+
+      // hide menu
+      menu.classList.add("hidden");
+
+      // reset icon back to burger
+      if (icon) {
+        icon.src = burgerIcon;
+        icon.alt = "Menu";
+      }
+    });
+  });
+
+  // Testimonial swiper
   const swiperEl = document.querySelector("#testimonial-swiper");
   if (swiperEl) {
     new Swiper("#testimonial-swiper", {

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pacific Programming Tech</title>
+    <title>Coast Interactive</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
@@ -17,28 +17,36 @@
         <nav class="w-full">
           <div class="px-4 h-20 flex items-center justify-between md:px-8">
             <!-- Logo -->
-            <a class="flex items-center w-[251px]" href="index.html">
+            <a
+              class="flex items-center w-[146px] md:w-[251px]"
+              href="index.html"
+            >
               <img
                 src="/coast_logo.png"
                 alt="Coast Logo"
-                class="h-6.5 w-full"
+                class="w-full hidden md:block"
+              />
+              <img
+                src="/logo-mobile.png"
+                alt="Coast Logo"
+                class="w-full block md:hidden"
               />
             </a>
 
             <!-- Center Nav Links -->
             <div class="hidden w-[460px] md:flex md:justify-center gap-8">
               <a
-                href="/"
+                href="/new/"
                 class="text-[#2A2A2A] font-Manrope font-bold text-base"
                 >Home</a
               >
               <a
-                href="/#services-we-offer"
+                href="/new/#services-we-offer"
                 class="text-[#2A2A2A] font-Manrope font-medium text-base opacity-50 hover:opacity-100 active:font-bold"
                 >Services</a
               >
               <a
-                href="/#who-we-are"
+                href="/new/#who-we-are"
                 class="text-[#2A2A2A] font-Manrope font-medium text-base opacity-50 hover:opacity-100 active:font-bold"
                 >Who We Are</a
               >
@@ -48,7 +56,7 @@
                 >Careers</a
               >
               <a
-                href="/#contact-us"
+                href="/new//#contact-us"
                 class="text-[#2A2A2A] font-Manrope font-medium text-base opacity-50 hover:opacity-100 active:font-bold"
                 >Contacts</a
               >
@@ -66,7 +74,7 @@
               <button id="mobile-menu-toggle" class="md:hidden">
                 <img
                   id="menu-icon"
-                  src="/burger_menu.svg"
+                  src="/new/burger_menu.svg"
                   alt="Menu"
                   class="h-6 w-6"
                 />
@@ -82,19 +90,19 @@
         >
           <div class="flex flex-col items-center gap-6 w-full">
             <a
-              href="/"
+              href="/new/"
               class="block w-full text-center font-Manrope text-2xl font-bold leading-[38.4px] text-[#2A2A2A]"
             >
               Home
             </a>
             <a
-              href="/#services-we-offer"
+              href="/new/#services-we-offer"
               class="block w-full text-center font-Manrope text-2xl font-bold leading-[38.4px] text-[#2A2A2A]"
             >
               Services
             </a>
             <a
-              href="/#who-we-are"
+              href="/new/#who-we-are"
               class="block w-full text-center font-Manrope text-2xl font-bold leading-[38.4px] text-[#2A2A2A]"
             >
               Who We Are
@@ -106,7 +114,7 @@
               Careers
             </a>
             <a
-              href="/#contact-us"
+              href="/new//#contact-us"
               class="block w-full text-center font-Manrope text-2xl font-bold leading-[38.4px] text-[#2A2A2A]"
             >
               Contacts
@@ -300,21 +308,9 @@
       <section class="job-posting-section px-4 md:px-8">
         <div
           class="w-full bg-white px-4 pt-12 pb-16 rounded-[20px] md:rounded-4xl md:pb-24 md:px-16"
-          id="open-positions "
+          id="open-positions"
         >
           <div class="max-w-[1568px] mx-auto md:px-8">
-            <div class="title flex items-center gap-2.5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="11"
-                height="13"
-                viewBox="0 0 11 13"
-                fill="none"
-              >
-                <path d="M11 6.5L0 13L5.55209e-07 0L11 6.5Z" fill="#228DFF" />
-              </svg>
-              <h2 class="section-title">Vacancies</h2>
-            </div>
             <div class="section-heading-container mb-6">
               <h3 class="section-heading">6 Open Positions</h3>
             </div>
@@ -327,19 +323,6 @@
                   class="text-xl md:text-2xl max-w-[638px] flex items-center justify-between w-full"
                 >
                   <span>Senior Full Stack Developer</span>
-                  <svg
-                    class="block lg:hidden"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                  >
-                    <path
-                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
-                      fill="#8E9AB0"
-                    />
-                  </svg>
                 </h4>
                 <div class="flex flex-row lg:flex-col gap-2">
                   <p class="location flex items-center gap-[2px]">
@@ -356,8 +339,9 @@
                         stroke-width="1.5"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                      /></svg
-                    >Hybrid
+                      />
+                    </svg>
+                    <span class="hidden md:block">Hybrid</span>
                   </p>
                   <p class="opacity-60">Vancouver, British Columbia</p>
                 </div>
@@ -386,19 +370,7 @@
                   </svg>
                   Full-Time
                 </div>
-                <div class="apply hidden items-center lg:flex gap-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                  >
-                    <path
-                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
-                      fill="#8E9AB0"
-                    />
-                  </svg>
+                <div class="hidden md:block">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -433,19 +405,6 @@
                   class="text-xl md:text-2xl max-w-[638px] flex items-center justify-between w-full"
                 >
                   <span>Senior Full Stack Developer</span>
-                  <svg
-                    class="block lg:hidden"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                  >
-                    <path
-                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
-                      fill="#8E9AB0"
-                    />
-                  </svg>
                 </h4>
                 <div class="flex flex-row lg:flex-col gap-2">
                   <p class="location flex items-center gap-[2px]">
@@ -462,8 +421,9 @@
                         stroke-width="1.5"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                      /></svg
-                    >Hybrid
+                      />
+                    </svg>
+                    <span class="hidden md:block">Hybrid</span>
                   </p>
                   <p class="opacity-60">Vancouver, British Columbia</p>
                 </div>
@@ -492,19 +452,7 @@
                   </svg>
                   Full-Time
                 </div>
-                <div class="apply hidden items-center lg:flex gap-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                  >
-                    <path
-                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
-                      fill="#8E9AB0"
-                    />
-                  </svg>
+                <div class="hidden md:block">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -539,19 +487,6 @@
                   class="text-xl md:text-2xl max-w-[638px] flex items-center justify-between w-full"
                 >
                   <span>Senior Full Stack Developer</span>
-                  <svg
-                    class="block lg:hidden"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                  >
-                    <path
-                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
-                      fill="#8E9AB0"
-                    />
-                  </svg>
                 </h4>
                 <div class="flex flex-row lg:flex-col gap-2">
                   <p class="location flex items-center gap-[2px]">
@@ -568,8 +503,9 @@
                         stroke-width="1.5"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                      /></svg
-                    >Hybrid
+                      />
+                    </svg>
+                    <span class="hidden md:block">Hybrid</span>
                   </p>
                   <p class="opacity-60">Vancouver, British Columbia</p>
                 </div>
@@ -598,19 +534,7 @@
                   </svg>
                   Full-Time
                 </div>
-                <div class="apply hidden items-center lg:flex gap-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                  >
-                    <path
-                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
-                      fill="#8E9AB0"
-                    />
-                  </svg>
+                <div class="hidden md:block">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -645,19 +569,6 @@
                   class="text-xl md:text-2xl max-w-[638px] flex items-center justify-between w-full"
                 >
                   <span>Senior Full Stack Developer</span>
-                  <svg
-                    class="block lg:hidden"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                  >
-                    <path
-                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
-                      fill="#8E9AB0"
-                    />
-                  </svg>
                 </h4>
                 <div class="flex flex-row lg:flex-col gap-2">
                   <p class="location flex items-center gap-[2px]">
@@ -674,8 +585,9 @@
                         stroke-width="1.5"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                      /></svg
-                    >Hybrid
+                      />
+                    </svg>
+                    <span class="hidden md:block">Hybrid</span>
                   </p>
                   <p class="opacity-60">Vancouver, British Columbia</p>
                 </div>
@@ -704,19 +616,7 @@
                   </svg>
                   Full-Time
                 </div>
-                <div class="apply hidden items-center lg:flex gap-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                  >
-                    <path
-                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
-                      fill="#8E9AB0"
-                    />
-                  </svg>
+                <div class="hidden md:block">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -751,19 +651,6 @@
                   class="text-xl md:text-2xl max-w-[638px] flex items-center justify-between w-full"
                 >
                   <span>Senior Full Stack Developer</span>
-                  <svg
-                    class="block lg:hidden"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                  >
-                    <path
-                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
-                      fill="#8E9AB0"
-                    />
-                  </svg>
                 </h4>
                 <div class="flex flex-row lg:flex-col gap-2">
                   <p class="location flex items-center gap-[2px]">
@@ -780,8 +667,9 @@
                         stroke-width="1.5"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                      /></svg
-                    >Hybrid
+                      />
+                    </svg>
+                    <span class="hidden md:block">Hybrid</span>
                   </p>
                   <p class="opacity-60">Vancouver, British Columbia</p>
                 </div>
@@ -810,7 +698,7 @@
                   </svg>
                   Full-Time
                 </div>
-                <div class="apply hidden items-center lg:flex gap-3">
+                <div class="hidden md:block">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -819,10 +707,80 @@
                     fill="none"
                   >
                     <path
-                      d="M27.7067 17.4203C27.774 17.6306 27.9221 17.8057 28.1183 17.9069C28.3146 18.0082 28.543 18.0274 28.7534 17.9603C29.1867 17.8203 29.4334 17.3537 29.2934 16.9137L29.2927 16.9117C29.2334 16.7337 25.894 6.66699 15.9994 6.66699C6.1067 6.66699 2.7667 16.7337 2.70804 16.9123L2.70737 16.9137C2.56737 17.3537 2.80737 17.8203 3.24737 17.9603C3.68737 18.1003 4.15404 17.8603 4.29404 17.4203C4.41337 17.047 7.30004 8.33366 16 8.33366C24.7 8.33366 27.5867 17.047 27.7067 17.4203ZM11.6667 18.0003C11.6667 16.8511 12.1233 15.7489 12.9359 14.9362C13.7486 14.1235 14.8508 13.667 16 13.667C17.1493 13.667 18.2515 14.1235 19.0642 14.9362C19.8768 15.7489 20.3334 16.8511 20.3334 18.0003C20.3334 19.1496 19.8768 20.2518 19.0642 21.0645C18.2515 21.8771 17.1493 22.3337 16 22.3337C14.8508 22.3337 13.7486 21.8771 12.9359 21.0645C12.1233 20.2518 11.6667 19.1496 11.6667 18.0003ZM16 12.0003C14.4087 12.0003 12.8826 12.6325 11.7574 13.7577C10.6322 14.8829 10 16.409 10 18.0003C10 19.5916 10.6322 21.1177 11.7574 22.243C12.8826 23.3682 14.4087 24.0003 16 24.0003C17.5913 24.0003 19.1175 23.3682 20.2427 22.243C21.3679 21.1177 22 19.5916 22 18.0003C22 16.409 21.3679 14.8829 20.2427 13.7577C19.1175 12.6325 17.5913 12.0003 16 12.0003Z"
-                      fill="#8E9AB0"
+                      d="M19.2402 7.90625L27.3336 15.9996L19.2402 24.0929"
+                      stroke="#8E9AB0"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4.6665 16H27.1065"
+                      stroke="#8E9AB0"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
                     />
                   </svg>
+                </div>
+              </div>
+
+              <div
+                class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 border-b border-[#CAD8EB] mb-4 py-6"
+              >
+                <h4
+                  class="text-xl md:text-2xl max-w-[638px] flex items-center justify-between w-full"
+                >
+                  <span>Senior Full Stack Developer</span>
+                </h4>
+                <div class="flex flex-row lg:flex-col gap-2">
+                  <p class="location flex items-center gap-[2px]">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M14 22V8M14 22H8C5.172 22 3.757 22 2.879 21.121C2 20.243 2 18.828 2 16V8C2 5.172 2 3.757 2.879 2.879C3.757 2 5.172 2 8 2C10.828 2 12.243 2 13.121 2.879C14 3.757 14 5.172 14 8M14 22H18C19.886 22 20.828 22 21.414 21.414C22 20.828 22 19.886 22 18V12C22 10.114 22 9.172 21.414 8.586C20.828 8 19.886 8 18 8H14M6.5 11H5.5M10.5 11H9.5M6.5 7H5.5M6.5 15H5.5M10.5 7H9.5M10.5 15H9.5M18.5 15H17.5M18.5 11H17.5"
+                        stroke="#282E38"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <span class="hidden md:block">Hybrid</span>
+                  </p>
+                  <p class="opacity-60">Vancouver, British Columbia</p>
+                </div>
+                <div class="time flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                  >
+                    <path
+                      d="M11 21C16.5228 21 21 16.5228 21 11C21 5.47715 16.5228 1 11 1C5.47715 1 1 5.47715 1 11C1 16.5228 5.47715 21 11 21Z"
+                      stroke="#282E38"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M11 5V11L15 13"
+                      stroke="#282E38"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  Full-Time
+                </div>
+                <div class="hidden md:block">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -970,15 +928,17 @@
           class="font-Manrope text-base flex justify-between w-full md:max-w-[516px]"
         >
           <div class="flex flex-col gap-6">
-            <a href="/" class="hover:underline">Home</a>
-            <a href="/#contact-us" class="hover:underline">Contacts</a>
+            <a href="/new/" class="hover:underline">Home</a>
+            <a href="/new/#contact-us" class="hover:underline">Contacts</a>
           </div>
           <div class="flex flex-col gap-6">
             <a href="/join-us.html" class="hover:underline">Careers</a>
-            <a href="/#who-we-are" class="hover:underline">Who We Are</a>
+            <a href="/new/#who-we-are" class="hover:underline">Who We Are</a>
           </div>
           <div>
-            <a href="/#services-we-offer" class="hover:underline">Services</a>
+            <a href="/new/#services-we-offer" class="hover:underline"
+              >Services</a
+            >
           </div>
         </div>
 
