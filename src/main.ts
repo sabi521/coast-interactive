@@ -69,18 +69,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Services swiper
   const servicesEl = document.querySelector("#services-swiper");
+
   if (servicesEl) {
-    new Swiper("#services-swiper", {
-      loop: true,
+    const servicesSwiper = new Swiper("#services-swiper", {
+      direction: "vertical",
+      loop: false,
       slidesPerView: 1,
-      speed: 600,
+      speed: 800,
       autoplay: {
-        delay: 4000,
+        delay: 3000,
+        disableOnInteraction: false,
+        stopOnLastSlide: true,
       },
       pagination: {
         el: "#services-swiper .swiper-pagination",
         clickable: true,
       },
+      mousewheel: {
+        releaseOnEdges: true,
+        forceToAxis: true,
+        sensitivity: 1,
+      },
+    });
+
+    servicesSwiper.on("reachEnd", () => {
+      servicesSwiper.autoplay.stop();
     });
   }
 });
